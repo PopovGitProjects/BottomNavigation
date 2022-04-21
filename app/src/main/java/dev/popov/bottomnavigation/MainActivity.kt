@@ -2,7 +2,6 @@ package dev.popov.bottomnavigation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import dev.popov.bottomnavigation.databinding.ActivityMainBinding
@@ -20,6 +19,6 @@ class MainActivity : AppCompatActivity() {
         val navController = navHostFragment.navController
 
         binding.botNavView.setupWithNavController(navController)
-        binding.botNavView.selectedItemId = R.id.item2
+        binding.botNavView.selectedItemId = R.id.item_2
     }
 }
